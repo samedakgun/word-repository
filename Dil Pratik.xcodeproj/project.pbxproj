@@ -14,6 +14,13 @@
 		178D5C602BAF7A17001474BA /* Dil_PratikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D5C5F2BAF7A17001474BA /* Dil_PratikTests.swift */; };
 		178D5C6A2BAF7A17001474BA /* Dil_PratikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D5C692BAF7A17001474BA /* Dil_PratikUITests.swift */; };
 		178D5C6C2BAF7A17001474BA /* Dil_PratikUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D5C6B2BAF7A17001474BA /* Dil_PratikUITestsLaunchTests.swift */; };
+		178D5C7A2BAF7A35001474BA /* Kelime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D5C792BAF7A35001474BA /* Kelime.swift */; };
+		178D5C7D2BAF7A54001474BA /* KelimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D5C7C2BAF7A54001474BA /* KelimeViewModel.swift */; };
+		178D5C802BAF7A72001474BA /* KelimeEkleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D5C7F2BAF7A72001474BA /* KelimeEkleView.swift */; };
+		178D5C822BAF7A85001474BA /* PratikView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D5C812BAF7A85001474BA /* PratikView.swift */; };
+		178D5C852BAF7AA3001474BA /* DilPratikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D5C842BAF7AA3001474BA /* DilPratikApp.swift */; };
+		178D5C872BAF7E0C001474BA /* EgzersizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D5C862BAF7E0C001474BA /* EgzersizView.swift */; };
+		178D5C8B2BAF8A77001474BA /* EzberlenenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D5C8A2BAF8A77001474BA /* EzberlenenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		178D5C652BAF7A17001474BA /* Dil PratikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dil PratikUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		178D5C692BAF7A17001474BA /* Dil_PratikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dil_PratikUITests.swift; sourceTree = "<group>"; };
 		178D5C6B2BAF7A17001474BA /* Dil_PratikUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dil_PratikUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		178D5C792BAF7A35001474BA /* Kelime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelime.swift; sourceTree = "<group>"; };
+		178D5C7C2BAF7A54001474BA /* KelimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeViewModel.swift; sourceTree = "<group>"; };
+		178D5C7F2BAF7A72001474BA /* KelimeEkleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeEkleView.swift; sourceTree = "<group>"; };
+		178D5C812BAF7A85001474BA /* PratikView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PratikView.swift; sourceTree = "<group>"; };
+		178D5C842BAF7AA3001474BA /* DilPratikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DilPratikApp.swift; sourceTree = "<group>"; };
+		178D5C862BAF7E0C001474BA /* EgzersizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgzersizView.swift; sourceTree = "<group>"; };
+		178D5C8A2BAF8A77001474BA /* EzberlenenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzberlenenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,10 @@
 		178D5C422BAF7A15001474BA = {
 			isa = PBXGroup;
 			children = (
+				178D5C832BAF7A94001474BA /* Supporting Files */,
+				178D5C7E2BAF7A64001474BA /* Views */,
+				178D5C7B2BAF7A42001474BA /* ViewModels */,
+				178D5C782BAF7A1E001474BA /* Models */,
 				178D5C4D2BAF7A15001474BA /* Dil Pratik */,
 				178D5C5E2BAF7A17001474BA /* Dil PratikTests */,
 				178D5C682BAF7A17001474BA /* Dil PratikUITests */,
@@ -125,6 +143,41 @@
 				178D5C6B2BAF7A17001474BA /* Dil_PratikUITestsLaunchTests.swift */,
 			);
 			path = "Dil PratikUITests";
+			sourceTree = "<group>";
+		};
+		178D5C782BAF7A1E001474BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				178D5C792BAF7A35001474BA /* Kelime.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		178D5C7B2BAF7A42001474BA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				178D5C7C2BAF7A54001474BA /* KelimeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		178D5C7E2BAF7A64001474BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				178D5C7F2BAF7A72001474BA /* KelimeEkleView.swift */,
+				178D5C812BAF7A85001474BA /* PratikView.swift */,
+				178D5C862BAF7E0C001474BA /* EgzersizView.swift */,
+				178D5C8A2BAF8A77001474BA /* EzberlenenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		178D5C832BAF7A94001474BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				178D5C842BAF7AA3001474BA /* DilPratikApp.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +310,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				178D5C7A2BAF7A35001474BA /* Kelime.swift in Sources */,
 				178D5C512BAF7A15001474BA /* ContentView.swift in Sources */,
+				178D5C802BAF7A72001474BA /* KelimeEkleView.swift in Sources */,
+				178D5C872BAF7E0C001474BA /* EgzersizView.swift in Sources */,
+				178D5C822BAF7A85001474BA /* PratikView.swift in Sources */,
+				178D5C852BAF7AA3001474BA /* DilPratikApp.swift in Sources */,
 				178D5C4F2BAF7A15001474BA /* Dil_PratikApp.swift in Sources */,
+				178D5C8B2BAF8A77001474BA /* EzberlenenView.swift in Sources */,
+				178D5C7D2BAF7A54001474BA /* KelimeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

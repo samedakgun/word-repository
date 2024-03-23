@@ -1,24 +1,25 @@
-//
-//  ContentView.swift
-//  Dil Pratik
-//
-//  Created by Samed Akgün on 23.03.2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+    @ObservedObject var viewModel: KelimeViewModel
 
-#Preview {
-    ContentView()
+    var body: some View {
+        NavigationView {
+            List {
+                NavigationLink(destination: KelimeEkleView(viewModel: viewModel)) {
+                    Text("Kelime Ekle")
+                }
+                NavigationLink(destination: PratikView(viewModel: viewModel)) {
+                    Text("kelime listem")
+                }
+                NavigationLink(destination: EgzersizView(viewModel: viewModel)) {
+                    Text("Ezgersiz")
+                }
+                NavigationLink(destination: EzberlenenView(viewModel: viewModel)) {
+                                   Text("Ezberlenen Kelimeler")
+                               }
+            }
+            .navigationBarTitle("Dil Pratik")
+        }
+    }
 }

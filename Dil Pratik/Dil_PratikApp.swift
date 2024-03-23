@@ -7,11 +7,5 @@
 
 import SwiftUI
 
-@main
-struct Dil_PratikApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
+
+
