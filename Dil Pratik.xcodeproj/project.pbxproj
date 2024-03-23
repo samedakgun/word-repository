@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		178D5C4F2BAF7A15001474BA /* Dil_PratikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D5C4E2BAF7A15001474BA /* Dil_PratikApp.swift */; };
+		178D5C512BAF7A15001474BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D5C502BAF7A15001474BA /* ContentView.swift */; };
+		178D5C532BAF7A17001474BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178D5C522BAF7A17001474BA /* Assets.xcassets */; };
+		178D5C562BAF7A17001474BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178D5C552BAF7A17001474BA /* Preview Assets.xcassets */; };
+		178D5C602BAF7A17001474BA /* Dil_PratikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D5C5F2BAF7A17001474BA /* Dil_PratikTests.swift */; };
+		178D5C6A2BAF7A17001474BA /* Dil_PratikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D5C692BAF7A17001474BA /* Dil_PratikUITests.swift */; };
+		178D5C6C2BAF7A17001474BA /* Dil_PratikUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D5C6B2BAF7A17001474BA /* Dil_PratikUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		178D5C5C2BAF7A17001474BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178D5C432BAF7A15001474BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 178D5C4A2BAF7A15001474BA;
+			remoteInfo = "Dil Pratik";
+		};
+		178D5C662BAF7A17001474BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178D5C432BAF7A15001474BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 178D5C4A2BAF7A15001474BA;
+			remoteInfo = "Dil Pratik";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		178D5C4B2BAF7A15001474BA /* Dil Pratik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dil Pratik.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		178D5C4E2BAF7A15001474BA /* Dil_PratikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dil_PratikApp.swift; sourceTree = "<group>"; };
+		178D5C502BAF7A15001474BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		178D5C522BAF7A17001474BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		178D5C552BAF7A17001474BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		178D5C5B2BAF7A17001474BA /* Dil PratikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dil PratikTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		178D5C5F2BAF7A17001474BA /* Dil_PratikTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dil_PratikTests.swift; sourceTree = "<group>"; };
+		178D5C652BAF7A17001474BA /* Dil PratikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dil PratikUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		178D5C692BAF7A17001474BA /* Dil_PratikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dil_PratikUITests.swift; sourceTree = "<group>"; };
+		178D5C6B2BAF7A17001474BA /* Dil_PratikUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dil_PratikUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		178D5C482BAF7A15001474BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178D5C582BAF7A17001474BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178D5C622BAF7A17001474BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178D5C422BAF7A15001474BA = {
+			isa = PBXGroup;
+			children = (
+				178D5C4D2BAF7A15001474BA /* Dil Pratik */,
+				178D5C5E2BAF7A17001474BA /* Dil PratikTests */,
+				178D5C682BAF7A17001474BA /* Dil PratikUITests */,
+				178D5C4C2BAF7A15001474BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		178D5C4C2BAF7A15001474BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				178D5C4B2BAF7A15001474BA /* Dil Pratik.app */,
+				178D5C5B2BAF7A17001474BA /* Dil PratikTests.xctest */,
+				178D5C652BAF7A17001474BA /* Dil PratikUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		178D5C4D2BAF7A15001474BA /* Dil Pratik */ = {
+			isa = PBXGroup;
+			children = (
+				178D5C4E2BAF7A15001474BA /* Dil_PratikApp.swift */,
+				178D5C502BAF7A15001474BA /* ContentView.swift */,
+				178D5C522BAF7A17001474BA /* Assets.xcassets */,
+				178D5C542BAF7A17001474BA /* Preview Content */,
+			);
+			path = "Dil Pratik";
+			sourceTree = "<group>";
+		};
+		178D5C542BAF7A17001474BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				178D5C552BAF7A17001474BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		178D5C5E2BAF7A17001474BA /* Dil PratikTests */ = {
+			isa = PBXGroup;
+			children = (
+				178D5C5F2BAF7A17001474BA /* Dil_PratikTests.swift */,
+			);
+			path = "Dil PratikTests";
+			sourceTree = "<group>";
+		};
+		178D5C682BAF7A17001474BA /* Dil PratikUITests */ = {
+			isa = PBXGroup;
+			children = (
+				178D5C692BAF7A17001474BA /* Dil_PratikUITests.swift */,
+				178D5C6B2BAF7A17001474BA /* Dil_PratikUITestsLaunchTests.swift */,
+			);
+			path = "Dil PratikUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		178D5C4A2BAF7A15001474BA /* Dil Pratik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178D5C6F2BAF7A17001474BA /* Build configuration list for PBXNativeTarget "Dil Pratik" */;
+			buildPhases = (
+				178D5C472BAF7A15001474BA /* Sources */,
+				178D5C482BAF7A15001474BA /* Frameworks */,
+				178D5C492BAF7A15001474BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dil Pratik";
+			productName = "Dil Pratik";
+			productReference = 178D5C4B2BAF7A15001474BA /* Dil Pratik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		178D5C5A2BAF7A17001474BA /* Dil PratikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178D5C722BAF7A17001474BA /* Build configuration list for PBXNativeTarget "Dil PratikTests" */;
+			buildPhases = (
+				178D5C572BAF7A17001474BA /* Sources */,
+				178D5C582BAF7A17001474BA /* Frameworks */,
+				178D5C592BAF7A17001474BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				178D5C5D2BAF7A17001474BA /* PBXTargetDependency */,
+			);
+			name = "Dil PratikTests";
+			productName = "Dil PratikTests";
+			productReference = 178D5C5B2BAF7A17001474BA /* Dil PratikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		178D5C642BAF7A17001474BA /* Dil PratikUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178D5C752BAF7A17001474BA /* Build configuration list for PBXNativeTarget "Dil PratikUITests" */;
+			buildPhases = (
+				178D5C612BAF7A17001474BA /* Sources */,
+				178D5C622BAF7A17001474BA /* Frameworks */,
+				178D5C632BAF7A17001474BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				178D5C672BAF7A17001474BA /* PBXTargetDependency */,
+			);
+			name = "Dil PratikUITests";
+			productName = "Dil PratikUITests";
+			productReference = 178D5C652BAF7A17001474BA /* Dil PratikUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		178D5C432BAF7A15001474BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					178D5C4A2BAF7A15001474BA = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					178D5C5A2BAF7A17001474BA = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 178D5C4A2BAF7A15001474BA;
+					};
+					178D5C642BAF7A17001474BA = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 178D5C4A2BAF7A15001474BA;
+					};
+				};
+			};
+			buildConfigurationList = 178D5C462BAF7A15001474BA /* Build configuration list for PBXProject "Dil Pratik" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 178D5C422BAF7A15001474BA;
+			productRefGroup = 178D5C4C2BAF7A15001474BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				178D5C4A2BAF7A15001474BA /* Dil Pratik */,
+				178D5C5A2BAF7A17001474BA /* Dil PratikTests */,
+				178D5C642BAF7A17001474BA /* Dil PratikUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		178D5C492BAF7A15001474BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178D5C562BAF7A17001474BA /* Preview Assets.xcassets in Resources */,
+				178D5C532BAF7A17001474BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178D5C592BAF7A17001474BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178D5C632BAF7A17001474BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		178D5C472BAF7A15001474BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178D5C512BAF7A15001474BA /* ContentView.swift in Sources */,
+				178D5C4F2BAF7A15001474BA /* Dil_PratikApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178D5C572BAF7A17001474BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178D5C602BAF7A17001474BA /* Dil_PratikTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178D5C612BAF7A17001474BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178D5C6A2BAF7A17001474BA /* Dil_PratikUITests.swift in Sources */,
+				178D5C6C2BAF7A17001474BA /* Dil_PratikUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		178D5C5D2BAF7A17001474BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 178D5C4A2BAF7A15001474BA /* Dil Pratik */;
+			targetProxy = 178D5C5C2BAF7A17001474BA /* PBXContainerItemProxy */;
+		};
+		178D5C672BAF7A17001474BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 178D5C4A2BAF7A15001474BA /* Dil Pratik */;
+			targetProxy = 178D5C662BAF7A17001474BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		178D5C6D2BAF7A17001474BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		178D5C6E2BAF7A17001474BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		178D5C702BAF7A17001474BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dil Pratik/Preview Content\"";
+				DEVELOPMENT_TEAM = QCTWD9GY2S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samedakgun.Dil-Pratik";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		178D5C712BAF7A17001474BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dil Pratik/Preview Content\"";
+				DEVELOPMENT_TEAM = QCTWD9GY2S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samedakgun.Dil-Pratik";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		178D5C732BAF7A17001474BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QCTWD9GY2S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samedakgun.Dil-PratikTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dil Pratik.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dil Pratik";
+			};
+			name = Debug;
+		};
+		178D5C742BAF7A17001474BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QCTWD9GY2S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samedakgun.Dil-PratikTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dil Pratik.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dil Pratik";
+			};
+			name = Release;
+		};
+		178D5C762BAF7A17001474BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QCTWD9GY2S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samedakgun.Dil-PratikUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dil Pratik";
+			};
+			name = Debug;
+		};
+		178D5C772BAF7A17001474BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QCTWD9GY2S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samedakgun.Dil-PratikUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dil Pratik";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178D5C462BAF7A15001474BA /* Build configuration list for PBXProject "Dil Pratik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178D5C6D2BAF7A17001474BA /* Debug */,
+				178D5C6E2BAF7A17001474BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178D5C6F2BAF7A17001474BA /* Build configuration list for PBXNativeTarget "Dil Pratik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178D5C702BAF7A17001474BA /* Debug */,
+				178D5C712BAF7A17001474BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178D5C722BAF7A17001474BA /* Build configuration list for PBXNativeTarget "Dil PratikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178D5C732BAF7A17001474BA /* Debug */,
+				178D5C742BAF7A17001474BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178D5C752BAF7A17001474BA /* Build configuration list for PBXNativeTarget "Dil PratikUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178D5C762BAF7A17001474BA /* Debug */,
+				178D5C772BAF7A17001474BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 178D5C432BAF7A15001474BA /* Project object */;
+}
